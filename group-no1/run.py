@@ -15,7 +15,7 @@ if __name__ == "__main__":
     debug = os.environ.get("FLASK_DEBUG", "True").lower() in ("true", "1")
 
     print("\n" + "=" * 60)
-    print(" Group No1 — Global Lost & Found Management System")
+    print(" Back to You — Global Lost & Found Management System")
     print(f" Running at: http://{host}:{port}")
     print(" Press CTRL+C to quit the server")
     print("=" * 60 + "\n")

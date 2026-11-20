@@ -1,5 +1,5 @@
 """
-Root convenience seeder for Group No1 Global Lost & Found Management System.
+Root convenience seeder for Back to You Global Lost & Found Management System.
 """
 
 import sys

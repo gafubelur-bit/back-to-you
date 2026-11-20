@@ -9,12 +9,13 @@
 [functions]
   included_files = ["group-no1/**"]
 
-# Static assets served directly; everything else routes to Flask function
+# Static assets are published from the app/static directory
 [[redirects]]
   from = "/static/*"
-  to = "/static/:splat"
+  to = "/:splat"
   status = 200
 
+# Everything else routes to the Flask function
 [[redirects]]
   from = "/*"
   to = "/.netlify/functions/app"

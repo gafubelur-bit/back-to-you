@@ -36,7 +36,7 @@ def register():
         try:
             db.session.commit()
             login_user(user)
-            flash("Account created successfully! Welcome to Group No1.", "success")
+            flash("Account created successfully! Welcome to Back to You.", "success")
             return redirect(url_for("dashboard.index"))
         except Exception:
             db.session.rollback()

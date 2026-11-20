@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{{ app_page_title }}{% endblock %}</title>
-    <meta name="description" content="Group No1 — Global Lost and Found Management System to report found belongings, search lost items, submit claims, and safely reunite owners with their items.">
+    <meta name="description" content="Back to You — Global Lost and Found Management System to report found belongings, search lost items, submit claims, and safely reunite owners with their items.">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     {% block extra_head %}{% endblock %}
 </head>
@@ -82,7 +82,7 @@
                 <a href="{{ url_for('main.privacy') }}">Privacy Policy</a>
             </div>
             <p class="footer-disclaimer">
-                Group No1 facilitates community coordination to return lost belongings. We do not guarantee ownership validity, condition, or authenticity of reported items. Always meet in safe, public locations.
+                Back to You facilitates community coordination to return lost belongings. We do not guarantee ownership validity, condition, or authenticity of reported items. Always meet in safe, public locations.
             </p>
             <p class="footer-copy">
                 {{ app_footer }}

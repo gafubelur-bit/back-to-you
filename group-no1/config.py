@@ -81,11 +81,11 @@ class Config:
     RATELIMIT_STRATEGY = "fixed-window"
 
     # Branding
-    APP_NAME = "Group No1"
+    APP_NAME = "Back to You"
     APP_TYPE = "Global Lost & Found Management System"
     APP_TAGLINE = "Lost Something? Found Something? Let's Bring It Back."
-    APP_PAGE_TITLE = "Group No1 — Global Lost & Found"
-    APP_FOOTER = "© Group No1 | Global Lost & Found Management System"
+    APP_PAGE_TITLE = "Back to You — Global Lost & Found"
+    APP_FOOTER = "© Back to You | Global Lost & Found Management System"
 
 
 class DevelopmentConfig(Config):
@@ -113,7 +113,7 @@ class ProductionConfig(Config):
     """Production configuration."""
     DEBUG = False
     TESTING = False
-    SESSION_COOKIE_SECURE = os.environ.get("SESSION_COOKIE_SECURE", "False").lower() in ("true", "1", "yes")
+    SESSION_COOKIE_SECURE = os.environ.get("SESSION_COOKIE_SECURE", "True").lower() in ("true", "1", "yes")
 
 
 config_by_name = {

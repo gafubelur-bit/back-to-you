@@ -20,7 +20,7 @@ def index():
 
 @main_bp.route("/about")
 def about():
-    """About Us and Team information for Group No1."""
+    """About Us and Team information for Back to You."""
     return render_template("about.html")
 
 

@@ -1,5 +1,5 @@
 /**
- * Group No1 — Global Lost & Found Management System
+ * Back to You — Global Lost & Found Management System
  * Interactive Client Script
  * Handles modal popups, multi-file previews, dynamic search, and mobile navigation.
  */

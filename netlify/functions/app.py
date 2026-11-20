@@ -1,5 +1,5 @@
 """
-Netlify Serverless Function Handler for Group No1 Flask Application.
+Netlify Serverless Function Handler for Back to You Flask Application.
 
 Netlify builds from the repo root, so paths must be resolved relative
 to this file's real location inside the built Lambda package.

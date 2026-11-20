@@ -7,7 +7,7 @@ from app.extensions import db, login_manager, csrf, limiter
 
 
 def create_app(config_name: str = "default") -> Flask:
-    """Application factory for Group No1 Global Lost & Found Management System."""
+    """Application factory for Back to You Global Lost & Found Management System."""
     app = Flask(__name__)
     
     # Load configuration
@@ -47,11 +47,11 @@ def create_app(config_name: str = "default") -> Flask:
     @app.context_processor
     def inject_globals():
         return {
-            "app_name": app.config.get("APP_NAME", "Group No1"),
+            "app_name": app.config.get("APP_NAME", "Back to You"),
             "app_type": app.config.get("APP_TYPE", "Global Lost & Found Management System"),
             "app_tagline": app.config.get("APP_TAGLINE", "Lost Something? Found Something? Let's Bring It Back."),
-            "app_page_title": app.config.get("APP_PAGE_TITLE", "Group No1 — Global Lost & Found"),
-            "app_footer": app.config.get("APP_FOOTER", "© Group No1 | Global Lost & Found Management System"),
+            "app_page_title": app.config.get("APP_PAGE_TITLE", "Back to You — Global Lost & Found"),
+            "app_footer": app.config.get("APP_FOOTER", "© Back to You | Global Lost & Found Management System"),
             "current_year": datetime.now().year,
         }
 
