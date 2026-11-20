@@ -41,3 +41,4 @@ Thumbs.db
 # Local deploy script and tools
 deploy_to_netlify.py
 .node/
+test-check.zip
